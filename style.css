@@ -19,12 +19,12 @@ img:hover {
 
 @font-face {
     font-family: yuzimai;
-    src: url(字體/yujimai/YujiMai-Regular.ttf)
+    src: url("fonts/yujimai/YujiMai-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: en;
-    src: url(字體/yujimai/YujiMai-Regular.ttf);
+    src: url("fonts/yujimai/YujiMai-Regular.ttf") format("truetype");
     unicode-range:U+5186;
 }
 

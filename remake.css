@@ -142,12 +142,12 @@ table {
 
 @font-face {
     font-family: 宇文;
-    src: url(字體/yuwen.ttf);
+    src: url("fonts/yuwen.ttf") format("truetype");
 }
 
 @font-face {
     font-family:yujimai ;
-    src: url(字體/yujimai/YujiMai-Regular.ttf);
+    src: url("fonts/yujimai/YujiMai-Regular.ttf") format("truetype");
 }
 
 
