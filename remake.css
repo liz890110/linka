@@ -1,0 +1,260 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+
+@font-face {
+    font-family: 宇文;
+    src: url(字體/yuwen.ttf);
+}
+
+@font-face {
+    font-family:yujimai ;
+    src: url(字體/yujimai/YujiMai-Regular.ttf);
+}
+
+
+
+.back1 {
+
+    width: 800px;
+    background-color:rgba(0, 0, 0, 0.7);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar {
+    border: 4px solid blueviolet;
+    height: 50px;
+    
+}
+
+.navbar p{
+    font-size: 30px;
+    margin-top: 9px;
+}
+
+
+
+.title {
+    border: 4px solid rgb(255, 165, 255);
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title h1{
+    color: pink;
+    font-size: 50px;
+    text-align: center;
+    font-family: 宇文;
+}
+.title p:hover{
+    color: blueviolet
+}
+
+.title p{
+    font-size: 20px;
+    color: rgb(225, 177, 249);
+    font-style: italic;
+    font-family: yujimai;
+    line-height: 40px;
+    letter-spacing: 10px;
+}
+
+
+
+.content {
+    border: 4px solid rgb(165, 198, 255);
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.menu{
+    border: 4px solid pink ;
+    height: auto;
+    margin-bottom: 10px;
+}
+.menu img{
+    width: 400px;
+}
+.menu img:hover{
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+
+.inside{
+    border: 4px solid pink ;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+.open{
+    border: 4px solid pink ;
+    height: auto;
+}
+
+
+
+
+
+.bottom {
+    border: 4px solid rgb(254, 254, 141);
+    height: 150px;
+}
+
+
+
+
+
+h5{
+    text-align: center;
+    color: rgb(247, 245, 246);
+    font-size: 40px;
+}

@@ -1,0 +1,84 @@
+h1 {
+    color: rgb(249, 93, 147);
+    font-size: 70px;
+}
+
+a {
+    color: rgb(255, 156, 234);
+}
+
+a:hover {
+    color: deepskyblue;
+    font-size: 30px;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+@font-face {
+    font-family: yuzimai;
+    src: url(字體/yujimai/YujiMai-Regular.ttf)
+}
+
+@font-face {
+    font-family: en;
+    src: url(字體/yujimai/YujiMai-Regular.ttf);
+    unicode-range:U+5186;
+}
+
+
+
+
+li {
+    color: blueviolet;
+}
+
+li:hover {
+    color: darkmagenta;
+    font-size: 40px;
+}
+
+.food {
+    color: rgb(255, 135, 55);
+}
+
+.food:hover {
+    color: rgb(157, 58, 27);
+    font: size 40px;
+}
+
+.p1 {
+    color: rgb(255, 0, 89);
+    font-style: italic;
+    font-size: 20px;
+    font-family: yuzimai;
+    letter-spacing: 10px;
+}
+
+.p1:hover {
+    color: darkmagenta;
+}
+
+.bilibili{
+    color: rgb(255, 209, 246);
+    background-color: cornflowerblue;
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu{
+    width: 300px;
+    text-align: center;
+    font-family: en;
+    text-decoration-line: underline;
+    text-decoration-color: hotpink;
+    text-decoration-style: dotted;
+    border: 3px dotted rgb(158, 0, 142);
+    margin-left: auto;
+    margin-right: auto;
+}

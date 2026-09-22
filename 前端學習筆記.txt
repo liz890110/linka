@@ -1,0 +1,75 @@
+開頭標籤格式< >
+閉標格式</ >
+
+<!DOCTYPE html>  html5格式，要寫在第一行
+
+h1~6  標題 字體大小
+p   段落
+br  段落中強制分行
+span 點綴文內特定字句的樣式
+
+區塊元素 滿版 另起一行 h p ul/li div
+行內標籤 a span
+後代選擇器 在div中選擇特定標籤
+
+
+img 圖片 不需要結尾標籤
+ src路徑 資料夾內需斜線/
+ alt視障人士讀圖片，解釋圖片內容是什麼  
+ width圖片寬度
+ transform 轉換
+
+a  連結標籤
+ href放連結
+ target="_blank" 在新分頁開啟
+ rel="noreferrer noopener 保護作用
+:hover擬態選擇器
+
+margin 向外推
+padding 向內推 會被列入div的高度
+
+
+ul 實心圓列表
+ol 數字123列表
+li 列表裡的項目
+
+display 顯示
+display-block 把行內元素改為區塊元素
+
+
+html
+lang 語言
+zh 中文
+
+head
+title 在head裡面，是網頁名稱
+body  放瀏覽者看的見的內容
+
+
+快捷鍵
+alt+shift+f 整理 
+ctrl+s      儲存
+
+font-family 字體
+@font-face可以在css面板中自定義字體的名字
+line-height 行距
+text-align水平對齊
+text-decoration文字線條
+letter-spacing字距
+
+邊框
+border:像素粗細 樣式 顏色;
+
+外部字體使用
+下載後解壓縮直到看見ttf檔
+於css面板寫下：
+@font-face{
+	font-family:自定義字體名稱;
+	src:url(字體檔在資料夾中的位置)
+這樣就可以在其他地方使用font-family(字體)
+
+特定字符使用特定字體則為
+@font-face{
+	font-family:自定義字體名稱;
+	src:url(字體檔在資料夾中的位置)
+	unicode-range:字元的unicode
